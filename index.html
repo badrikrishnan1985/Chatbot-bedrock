@@ -87,7 +87,7 @@
 </head>
 <body>
 
-  <header>🤖 AI Chatbot — Powered by Amazon Bedrock</header>
+  <header>🤖 Travelport Chatbot — Powered by AI</header>
 
   <div id="chatBox"></div>
 
@@ -108,7 +108,7 @@
       addMessage(message, 'user');
 
       // Call backend
-      const response = await fetch('https://your-api-id.execute-api.us-east-1.amazonaws.com/chat', {
+      const response = await fetch('https://yo3q94o72d.execute-api.us-east-1.amazonaws.com/dev/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ message, history })
